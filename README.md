@@ -17,6 +17,7 @@ Make sure you have the following libraries installed to run this code:
 
 ## Dataset
 The dataset used in this project is stored in a CSV file called data_kaggle2.csv. The dataset contains text data and corresponding sentiment labels.
+- Data source: https://www.kaggle.com/datasets/sbhatti/financial-sentiment-analysis?select=data.csv 
 
 ## Exploratory Data Analysis
 The code begins with importing necessary libraries and loading the dataset. It performs some basic exploratory data analysis, including checking for null entries and displaying summary statistics.
@@ -51,6 +52,13 @@ To run this code, make sure you have the required libraries installed and the da
 This project demonstrates a basic sentiment analysis task using a Multinomial Naive Bayes classifier. The accuracy score obtained provides an initial assessment of the model's performance. Further improvements, such as fine-tuning the model or using more advanced techniques, can be explored to enhance sentiment analysis results.
 
 Feel free to customize and expand upon this project as needed.
+
+## Contact
+If you have any questions, suggestions, or issues related to this project, feel free to contact us at [flaurapall@gmail.com].
+
+## Author
+* [Pall Laura](https://github.com/laurapall)
+
 
 
 
