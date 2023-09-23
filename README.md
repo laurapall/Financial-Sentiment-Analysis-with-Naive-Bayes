@@ -7,6 +7,20 @@ Sentiment Analysis with Naive Bayes
 This repository contains code for performing sentiment analysis using the Naive Bayes algorithm on a dataset. The code covers data preprocessing, model training, and evaluation.
 
 Table of Contents
+•	Introduction
+•	Dependencies
+•	Usage
+•	Dataset
+•	Data Preprocessing
+•	Model Training
+•	Model Evaluation
+•	Results
+•	Contributing
+•	License
+![image](https://github.com/laurapall/Financial-Sentiment-Analysis-with-Naive-Bayes/assets/48211193/c2a187c5-6aab-4272-a532-fa4bc1a4a9fb)
+
+
+Table of Contents
 Introduction
 Dependencies
 Usage
