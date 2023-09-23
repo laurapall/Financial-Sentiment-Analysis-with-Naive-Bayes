@@ -1,84 +1,58 @@
-# Financial-Sentiment-Analysis-with-Naive-Bayes
-Sentiment analysis project analyzing text data (financial reviews) to classify sentiments (positive, negative, neutral).
+# Sentiment Analysis using Python
 
+This project is a simple sentiment analysis task performed using Python. 
+It includes loading a dataset, preprocessing the text data, training a Multinomial Naive Bayes classifier, and evaluating the model's performance.
 
+## Requirements
 
-Sentiment Analysis with Naive Bayes
-This repository contains code for performing sentiment analysis using the Naive Bayes algorithm on a dataset. The code covers data preprocessing, model training, and evaluation.
-
-Table of Contents
-•	Introduction
-•	Dependencies
-•	Usage
-•	Dataset
-•	Data Preprocessing
-•	Model Training
-•	Model Evaluation
-•	Results
-•	Contributing
-•	License
-![image](https://github.com/laurapall/Financial-Sentiment-Analysis-with-Naive-Bayes/assets/48211193/c2a187c5-6aab-4272-a532-fa4bc1a4a9fb)
-
-
-Table of Contents
-Introduction
-Dependencies
-Usage
-Dataset
-Data Preprocessing
-Model Training
-Model Evaluation
-Results
-Contributing
-License
-Introduction
-Sentiment analysis is the process of determining the sentiment or emotional tone behind a piece of text. This project focuses on sentiment analysis using the Multinomial Naive Bayes algorithm. The dataset used for this analysis contains labeled sentiment data.
-
-Dependencies
 Make sure you have the following libraries installed to run this code:
 
-numpy
-pandas
-matplotlib
-seaborn
-scikit-learn
-nltk
-plotly (used for data visualization)
-You can install these libraries using pip:
+- `numpy`
+- `pandas`
+- `matplotlib`
+- `seaborn`
+- `nltk`
+- `scikit-learn`
 
-bash
-Copy code
-pip install numpy pandas matplotlib seaborn scikit-learn nltk plotly
-Usage
-Clone this repository:
-bash
-Copy code
-git clone https://github.com/your-username/sentiment-analysis.git
-cd sentiment-analysis
-Download the dataset and place it in the project directory as data_kaggle2.csv.
 
-Run the code using a Python environment (e.g., Jupyter Notebook or a code editor).
+## Dataset
+The dataset used in this project is stored in a CSV file called data_kaggle2.csv. The dataset contains text data and corresponding sentiment labels.
 
-Dataset
-The dataset used in this project is data_kaggle2.csv. It contains text data and corresponding sentiment labels (positive, negative, or neutral).
+## Exploratory Data Analysis
+The code begins with importing necessary libraries and loading the dataset. It performs some basic exploratory data analysis, including checking for null entries and displaying summary statistics.
 
-Data Preprocessing
-The dataset is loaded using pandas.
-Sentiment labels are mapped to numerical values.
-Data is cleaned, including the removal of stopwords and punctuation.
-Model Training
-The text data is converted to vectors using the CountVectorizer.
-Multinomial Naive Bayes classifier is trained on the vectorized data.
-Model Evaluation
-The model is evaluated using accuracy score on a test set.
-Results
-The results of the sentiment analysis are presented as:
+## Data Preprocessing
+Text data preprocessing is a crucial step in sentiment analysis. The code preprocesses the text data by:
 
-Percentage breakdown of sentiment labels in the dataset.
-Visualizations of sentiment label distribution.
-Model accuracy score on the test data.
-Contributing
-If you'd like to contribute to this project, feel free to open an issue or submit a pull request.
+- Mapping sentiment labels to numerical values (1 for positive, -1 for negative, 0 for neutral).
+- Calculating the percentage distribution of sentiment labels in the dataset.
 
-License
-This project is licensed under the MIT License - see the LICENSE file for details.
+## Data Visualization
+The code uses matplotlib and seaborn to create data visualizations, including:
+
+- A pie chart showing the distribution of sentiment labels.
+- A bar chart displaying the count of each sentiment label.
+
+## Model Building
+The sentiment analysis model is built using a Multinomial Naive Bayes classifier. The code performs the following steps:
+
+- Splits the dataset into training and testing sets.
+- Converts text data into numerical features using Count Vectorization.
+- Trains the Multinomial Naive Bayes classifier on the training data.
+- Makes predictions on the test data.
+
+## Model Evaluation
+The code calculates the accuracy score of the sentiment analysis model to evaluate its performance.
+
+## Running the Code
+To run this code, make sure you have the required libraries installed and the dataset file (data_kaggle2.csv) in the same directory as the script. Then, execute the script.
+
+## Conclusion
+This project demonstrates a basic sentiment analysis task using a Multinomial Naive Bayes classifier. The accuracy score obtained provides an initial assessment of the model's performance. Further improvements, such as fine-tuning the model or using more advanced techniques, can be explored to enhance sentiment analysis results.
+
+Feel free to customize and expand upon this project as needed.
+
+
+
+
+
